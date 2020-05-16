@@ -1,4 +1,3 @@
-# Obfuscate & Deobfuscate
 # Bash Encrypter & Decrypter
 ```
 $ apt update && apt upgrade
