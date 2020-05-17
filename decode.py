@@ -20,7 +20,7 @@ eror = R + '[' + W + '!' + R + ']'
 
 banner = """
 {}BASH OBFUSCATE{}
-{}Encrypt and Decrypt shell{}
+{}Decrypt shell{}
 {}
 {}Mod by      :topenK{}
 Youtube     {}:orangasing Channel
@@ -28,7 +28,7 @@ Youtube     {}:orangasing Channel
 """.format(D,W,D,W,D,W,Y,W,D,W,D,W,D,W,D,W,D,Y,D,W,D,Y,D,G,W,G,D,G,W,G,Y,D,Y,D,Y,D,Y,D,Y)
 
 banner2 = """
-   {}[{}1{}]{} Decrypt
+   {}[{}1{}]{} Decrypt?
 """.format(G,W,G,W,G,W,G,W)
 
 print banner
@@ -59,9 +59,9 @@ def dekrip():
    except IOError:
        print (eror + " File Not Found!")
 
-takok = raw_input(W + "Input 1 to Decrypt" + G + " > ")
+takok = raw_input(W + "Input (y/Y) to Decrypt" + G + " > ")
 
-if takok == "1" or takok == "01":
+if takok == "y" or takok == "Y":
    dekrip()
 else:
    print (eror + " Wrong input")
